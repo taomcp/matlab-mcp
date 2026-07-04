@@ -4,6 +4,8 @@
 
 Instead of spending multiple chat turns asking an agent to inspect plots, export arrays, and restate results, `matlab-mcp` turns MATLAB outputs into PNG files plus structured JSON summaries that an agent can read directly.
 
+One of its biggest practical advantages is that it is easy to adopt: if a machine already has MATLAB R2016a or newer, it can usually be used right away without adding another runtime, service, package manager, or toolbox stack.
+
 This community edition is intentionally simple:
 
 - the agent can run shell commands
@@ -12,6 +14,14 @@ This community edition is intentionally simple:
 - MATLAB can be called as `matlab` or by full executable path
 
 No Python, no server process, and no MATLAB toolbox dependency are required.
+
+## Easy to start
+
+- requires only MATLAB R2016a or newer
+- no Python environment to install
+- no background server to deploy
+- no extra toolbox dependency
+- works well for local, file-based agent workflows with very little setup
 
 ## Why it helps
 
